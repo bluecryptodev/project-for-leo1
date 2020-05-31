@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .MuiGrid-grid-xs-6 {
+    width: 100%;
+    max-width: 100%!important;
+    flex-basis: 100%!important;
+  }
+}
